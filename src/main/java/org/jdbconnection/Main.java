@@ -16,8 +16,4 @@ public class Main {
             throw new RuntimeException(e);
         }
     }
-    public static void hello(){
-        String username = System.getenv("DB_USER");
-        System.out.println(username);
-    }
 }
