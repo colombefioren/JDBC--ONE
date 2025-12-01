@@ -1,3 +1,4 @@
 export DB_USER=postgres
 export DB_PASSWORD=YOUR_PASSWORD
 export DB_NAME=YOUR_DB_NAME
+export DB_PORT=YOUR_PORT
