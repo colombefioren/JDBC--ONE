@@ -11,10 +11,10 @@ public class DataSource {
     private final String url;
 
     public DataSource(){
-        username = System.getenv("USERNAME");
-        password = System.getenv("PASSWORD");
-        String databaseName = System.getenv("DATABASE_NAME");
-        url = "jdbc:postgresql:://localhost:" + DEFAULT_PORT + "/" + databaseName;
+        username = System.getenv("DB_USER");
+        password = System.getenv("DB_PASSWORD");
+        String databaseName = System.getenv("DB_NAME");
+        url = "jdbc:postgresql://localhost:" + DEFAULT_PORT + "/" + databaseName;
     }
 
     public Connection getConnection() throws SQLException {
