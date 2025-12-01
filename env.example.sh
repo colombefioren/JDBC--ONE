@@ -1,0 +1,3 @@
+export USERNAME=postgres
+export PASSWORD=YOUR_PASSWORD
+export NAME=YOUR_DB_NAME
